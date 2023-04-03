@@ -1,0 +1,18 @@
+extends info.pug 
+
+block content 
+    if deleted 
+      p.deleted Deleted 
+    .container2 
+      h1 All workers 
+    if workers.length 
+      each worker in workers 
+        .workers-wrapper 
+          a.worker(href=`/workers/${worker.id}`) Name : #{worker.name}
+          a.worker_age(href=`/workers/${worker.id}`) Age : #{worker.age}    
+          a.update(href="#") update 
+          a.delete(href=`/${worker.id}/delete`) Delete
+    else 
+      p.worker_is_not_found No any worker available   
+
+

@@ -1,0 +1,17 @@
+1. A workers database application is a software tool that allows users to manage employee data 
+in an organization. This application typically includes a user-friendly interface that enables 
+users to add, edit, and delete employee records, as well as generate reports and view a list of 
+all workers.
+
+2. The purpose of the application is to serve employees, and it includes several pages that are 
+created using Pug, namely: home.pug, layout.pug, workers.pug, and info.pug. Links are provided 
+for easy navigation between the pages. The home page consists of a navigation section and a main 
+content area. A link is provided on this page to create a company account. The application is 
+designed to gather information about the workers' names and ages. The user must provide both pieces 
+of information; otherwise, an error message will appear on the interface. The minimum age requirement
+for a employee to create an account is 16 years old. When filling out the age field, the user must 
+enter only numbers, not text. Once a student account is created, the user can also update the account 
+information.
+
+
+Link to the public repo with web application source code on github:

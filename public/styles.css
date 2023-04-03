@@ -1,0 +1,249 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  max-width: 1100px;
+}
+
+.navbar h1{
+  justify-content: space-between;
+  display: flex;
+  height: 80px;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding:0px 50px;
+  /* background-color:#f4f4f4; */
+  /* border-radius: 10px; */
+  margin: 10px 10px;
+}
+.navbar h1:hover{
+  border: 1px solid green;
+}
+/* .navbar h1 a:nth-child(1):hover{border: 1px solid gray;
+
+} */
+.navbar h1 a{
+  font-size: 34px;
+  text-decoration: none;
+  color:black;
+font-style: initial;
+}
+.navbar h1 a:hover{
+ color: greenyellow;
+ transition-duration: 0.3s;
+}
+
+.container h1{
+  font-weight: 100;
+}
+.nav a:nth-child(1){
+  padding-right: 30px;
+}
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding:60px;
+  margin-bottom: 70px;
+  height: 400px;
+  display: flex;
+  margin-top: 60px;
+
+justify-content: space-between;
+flex-direction: column;}
+.container h1{ 
+  max-width: 65%;
+font-size:35px;
+}
+/* button{
+  /* color: white;
+  background-color:rgb(155, 26, 26);
+} */ 
+.container a{
+  color:white ;
+  background-color: rgb(17, 88, 17) ;
+  border: none;
+  /* outline: none; */
+  text-decoration: none;
+  font-size: 19px;
+  width: 170px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  /* margin-top: 90px; */
+  /* display: block; */
+  /* margin-top: 90px; */
+}
+.container a:hover{
+  background-color: rgb(35, 122, 35);
+  /* border: 1px solid rgb(155, 26, 26); */
+}
+.account{
+margin-top: 50px;
+display: flex;
+justify-content: center;
+font-size: 40px;
+}
+/* .error{
+  border: ;
+} */
+.name{
+  display: flex;
+}
+.age{
+  display: flex;
+}
+label{
+  margin-left: 70px;
+  font-size: 23px;
+}
+input{
+  height: 29px;
+  width: 200px;
+}
+input:hover{border: 2px solid black;}
+/* .age input{
+  margin-right: 70px;
+} */
+/* .age label{
+  padding-right: 40px;
+} */
+.btn{
+  background-color: green;
+  color: white;
+/* font-size: 40px; */
+outline: none;
+border: none;
+height: 45px;
+width: 200px;
+margin-left: 70px;
+font-size:18px ;
+border-radius: 10px;
+}
+.btn:hover{
+  background-color:greenyellow;
+}
+/* .form{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: space-around;
+} */
+.name,.age,.btn{
+  margin-top: 40px;
+}
+.error{
+  position: relative;
+  left: 70px;
+  top: 30px;
+  /* border: 2px red solid; */
+  width: 360px;
+  background-color: white;
+  height: 35px;
+  color:red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius:15px; */
+}
+.success{
+  position: relative;
+  left: 70px;
+  top: 30px;
+  /* border: 2px green solid; */
+  width: 360px;
+  background-color: white;
+  height: 35px;
+  color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container2 h1{
+  display: flex;
+  justify-content: center;
+  color: rgb(12, 12, 16);
+  font-size: 36px;
+}
+.worker{
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  margin-right: 40px;
+}
+.workers-wrapper{
+  border: 1px solid #f4f4f4;
+  margin: 20px;
+  height: 50px;
+  align-items: center; 
+  display: flex;
+  padding-left: 50px;
+  /* background-color: ; */
+  width: 70%;
+  position: relative;
+
+  
+}
+.container2 .workers-wrapper{
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;}
+.worker_age{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.update{
+  /* margin-left: 180px; */
+  text-decoration: none;
+  color: blue;
+  border:1px solid blue;
+  padding: 10px 20px;
+  border-radius: 3px;
+  /* float: right; */
+  /* display: flex-end; */
+  position: absolute;
+  right: 160px;
+
+  
+}
+span{
+  color: black;
+}
+.delete{
+  float: right;
+  /* margin-left: 50px; */
+  text-decoration: none;
+  color:red;
+  border:1px solid red;
+  padding: 10px 20px;
+  border-radius: 3px;
+  position: absolute;
+  right: 40px;
+}
+.delete:hover{
+  font-size: 19px;
+}
+.update:hover{
+ font-size: 19px;}
+
+.deleted{
+  /* max-width: 1100px; */
+/* position: absolute; */
+left:70px;
+bottom: 70px;
+font-size: 35px;
+/* font-style: italic; */
+}
+.container2{
+  max-width: 1100px;
+}
+.worker_is_not_found{
+  margin-left: 70px;
+  font-size: 34px;
+  font-weight: 100;
+  font-style: italic;
+}

@@ -1,0 +1,21 @@
+extends layout.pug 
+
+block content 
+  h1.account Create a worker account
+  
+  if error 
+    p.error Some error occured!
+  if success 
+    p.success Account is successfully created.
+  
+  form.form(action="/info" method='POST')
+    .name
+      label Full name:
+       input(type="text" name="name")
+    
+    .age   
+      label Age :
+      input(type="number" name="age" min="16")
+    
+    .create_worker  
+      button.btn Create worker 
